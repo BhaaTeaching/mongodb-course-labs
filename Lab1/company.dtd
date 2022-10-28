@@ -1,0 +1,28 @@
+<!ELEMENT companies (company+)>
+<!ATTLIST company id ID #REQUIRED>
+<!ELEMENT company (name,address, ceo, employees, advirtisment_manager*)+>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT address EMPTY>
+<!ATTLIST 
+address
+street CDATA #REQUIRED
+building_number CDATA #REQUIRED
+>
+
+<!ELEMENT ceo (#PCDATA)>
+<!ATTLIST 
+ceo
+emp_id IDREF #REQUIRED
+>
+<!ELEMENT employees (employee+)>
+<!ELEMENT employee (#PCDATA)>
+<!ATTLIST 
+employee emp_id ID #REQUIRED
+name CDATA #REQUIRED
+age CDATA #REQUIRED
+title CDATA #REQUIRED
+>
+<!ELEMENT advirtisment_manager (#PCDATA)>
+<!ATTLIST 
+advirtisment_manager emp_id IDREF #REQUIRED
+>
