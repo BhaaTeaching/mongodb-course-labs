@@ -1,34 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE companies SYSTEM "./company.dtd">
-<companies>
-    <company id="id_1">
-        <name>MICORSOFT</name>
-        <address street="street-name" building_number="5" />
-        <ceo emp_id="id_456"></ceo>
-        <employees>
-            <employee emp_id="id_456" name="Bill Gates" age="65" title="CEO"></employee>
-            <employee emp_id="id_789" name="Max" age="22" title="Advertisment"></employee>
-            <employee emp_id="id_147" name="Mark" age="26" title="Software Engineer">
-                This employee develop the system of MICORSOFT
-            </employee>
-        </employees>
-        <advirtisment_manager emp_id = "id_789">
-            This employee makes all the work with social media
-        </advirtisment_manager>
-    </company>
-    <company id="id_2">
-        <name>MICORSOFT</name>
-        <address street="street-name" building_number="5" />
-        <ceo emp_id="id_456"></ceo>
-        <employees>
-            <employee emp_id="id2_456" name="Bill Gates" age="65" title="CEO"></employee>
-            <employee emp_id="id2_789" name="Max" age="22" title="Advertisment"></employee>
-            <employee emp_id="id2_147" name="Mark" age="26" title="Software Engineer">
-                This employee develop the system of MICORSOFT
-            </employee>
-        </employees>
-        <advirtisment_manager emp_id = "id_789">
-            This employee makes all the work with social media
-        </advirtisment_manager>
-    </company>
-</companies>
+<!DOCTYPE note SYSTEM "./company.dtd">
+
+<note>
+    <to>sdgdfgdfg</to>
+</note>
