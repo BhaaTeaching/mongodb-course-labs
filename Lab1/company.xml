@@ -17,7 +17,7 @@
         </advirtisment_manager>
     </company>
     <company id="id_2">
-        <name>MICORSOFT</name>
+        <name>MICORSOFT2</name>
         <address street="street-name" building_number="5" />
         <ceo emp_id="id_456"></ceo>
         <employees>
